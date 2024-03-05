@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  --primary: #9f8d67;
+  --bg: #120f12;
+}
+
+h1 {
+  /* font-family: "Cinzel", serif; */
+  font-weight: 700;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  /* font-family: "Satisfy", cursive; */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+
+.buttons {
+  /* font-family: "Cinzel", serif; */
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+ul.timeline li {
+  max-width: 10rem;
+}
+
+/* Tablet */
+/* Add this to your existing styles or stylesheets */
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 78.5%;
+  }
+  .menu-nav {
+    display: none;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 480px) {
+  html {
+    font-size: 60%;
+  }
+}
+/* .hero {
+  display: grid;
+  grid-template-areas: "cover cover cover description";
+}
+
+.cover-book {
+  grid-area: cover;
+}
+
+.description {
+  grid-area: description;
+  width: 80%;
+} */
+
+/* .description-1 {
+  grid-area: description-1;
+}
+
+.description-2 {
+  grid-area: description-2;
+}
+
+.description-3 {
+  grid-area: description-3;
+} */
