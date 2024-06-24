@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
           </dialog>
         </div>
       </div>
-      <img src={catImage} className="hidden md:flex" />
+    
     </div>
   );
 };
