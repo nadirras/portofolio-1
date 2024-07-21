@@ -1,6 +1,7 @@
 import React from "react";
 import charredImage from "../../img/charred-project.png";
 import compro from "../../img/compro.png";
+import groceryApp from "../../img/grocery-web-app.png";
 
 const Content: React.FC = () => {
   const events = [
@@ -22,12 +23,7 @@ const Content: React.FC = () => {
               <li key={index}>
                 <div className="timeline-start">{event.split(": ")[0]}</div>
                 <div className="timeline-middle">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="h-5 w-5"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
                     <path
                       fillRule="evenodd"
                       d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
@@ -35,9 +31,7 @@ const Content: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <div className="timeline-end timeline-box">
-                  {event.split(": ")[1]}
-                </div>
+                <div className="timeline-end timeline-box">{event.split(": ")[1]}</div>
                 {index < events.length - 1 && <hr />}
               </li>
             ))}
@@ -65,16 +59,10 @@ const Content: React.FC = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Charred Project Website</h2>
-              <p>
-                Website of Noir Rosetea's books those published by One PEACH
-                Media.
-              </p>
+              <p>Website of Noir Rosetea's books those published by One PEACH Media.</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">
-                  <a
-                    href="https://nadirras.github.io/charred-project/"
-                    target="_blank"
-                  >
+                  <a href="https://nadirras.github.io/charred-project/" target="_blank">
                     See Details
                   </a>
                 </button>
@@ -89,22 +77,34 @@ const Content: React.FC = () => {
             <div className="card-body">
               <h2 className="card-title">Company Profile</h2>
               <p>
-                Company profile serves as a comprehensive overview of a company
-                intending to execute a sequence of coordinated promotions via a
-                website. Our task is to tackle a code challenge aimed at
-                showcasing my front-end development skills. The task involved
-                creating a company profile website to fulfill specific
-                requirements. Leveraging HTML, CSS, and JavaScript, alongside
-                frameworks like Next.js. The resulting website, hosted on
-                Vercel, effectively communicated the company's ethos and
-                offerings.
+                Company profile serves as a comprehensive overview of a company intending to execute a sequence of coordinated promotions via a website. Our task is to tackle a code challenge aimed at
+                showcasing my front-end development skills. The task involved creating a company profile website to fulfill specific requirements. Leveraging HTML, CSS, and JavaScript, alongside
+                frameworks like Next.js. The resulting website, hosted on Vercel, effectively communicated the company's ethos and offerings.
               </p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">
-                  <a
-                    href="https://mangroveshield-corp.vercel.app/"
-                    target="_blank"
-                  >
+                  <a href="https://mangroveshield-corp.vercel.app/" target="_blank">
+                    See Details
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          {/* Card 3 Grocery Web App*/}
+          <div className="card w-96 bg-base-200 shadow-xl">
+            <figure className="max-h-[15rem]">
+              <img src={groceryApp} alt="compro" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Grocery Web App</h2>
+              <p>
+                Online Grocery Web App is an e-commerceapplication that has a function for online shopping,where the buyer can choose the location of the store.This project will be worked on by a
+                group of threepeople. The division of features for each member isaccording to the main features chosen. This projectuses the NextJS framework and for the backend usesExpressJS, Prisma,
+                and MySQL.
+              </p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">
+                  <a href="https://jcwd030802.purwadhikabootcamp.com" target="_blank">
                     See Details
                   </a>
                 </button>
