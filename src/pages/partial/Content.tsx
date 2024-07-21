@@ -98,9 +98,9 @@ const Content: React.FC = () => {
             <div className="card-body">
               <h2 className="card-title">Grocery Web App</h2>
               <p>
-                Online Grocery Web App is an e-commerceapplication that has a function for online shopping,where the buyer can choose the location of the store.This project will be worked on by a
-                group of threepeople. The division of features for each member isaccording to the main features chosen. This projectuses the NextJS framework and for the backend usesExpressJS, Prisma,
-                and MySQL.
+                Online Grocery Web App is an e-commerce application that has a function for online shopping,where the buyer can choose the location of the store.This project will be worked on by a
+                group of three people. The division of features for each member is according to the main features chosen. This project uses the NextJS framework and for the backend uses ExpressJS,
+                Prisma, and MySQL.
               </p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">
