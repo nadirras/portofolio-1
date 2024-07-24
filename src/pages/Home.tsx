@@ -1,5 +1,3 @@
-// src/pages/Home.tsx
-
 import React, { useEffect, useState } from "react";
 
 import Hero from "./partial/Hero";
@@ -40,9 +38,7 @@ const Home: React.FC = () => {
             {/* Skill Section */}
             <Skill />
             {/* Footer Section */}
-            <footer className="footer items-center p-4 bg-neutral text-neutral-content">
-              Nadirra. All Right Reserved
-            </footer>
+            <footer className="footer items-center p-4 bg-neutral text-neutral-content">Nadirra. All Right Reserved</footer>
           </div>
         </>
       )}

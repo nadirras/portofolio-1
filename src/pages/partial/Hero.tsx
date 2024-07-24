@@ -6,9 +6,7 @@ import catImage from "../../img/kucing-cibiru.png";
 const Hero: React.FC = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   useEffect(() => {
-    const modal = document.getElementById(
-      "my_modal_2"
-    ) as HTMLDialogElement | null;
+    const modal = document.getElementById("my_modal_2") as HTMLDialogElement | null;
 
     if (modal) {
       if (isModalOpen) {
@@ -38,10 +36,7 @@ const Hero: React.FC = () => {
           <h1>
             <span className="text-[#fc845a]">Nadirra</span> is here!
           </h1>
-          <p className="py-6">
-            I'm actually a baker who stumbled upon on web development. I'm
-            looking forward to collaborate with you!
-          </p>
+          <p className="py-6">I'm actually a Biomedical Engineering undergraduate who stumbled upon on web development. I'm looking forward to collaborate with you!</p>
           <button className="btn btn-primary" onClick={openModal}>
             Contact Me
           </button>
@@ -51,18 +46,10 @@ const Hero: React.FC = () => {
             <div className="modal-box">
               <h3 className="font-bold text-lg mb-3">Contact Me</h3>
               <div className="flex flex-row gap-10 justify-center items-center">
-                <a
-                  href="https://www.linkedin.com/in/nadirra-s-3a36b0118/"
-                  target="_blank"
-                  className="card w-[7rem] h-auto"
-                >
+                <a href="https://www.linkedin.com/in/nadirra-s-3a36b0118/" target="_blank" className="card w-[7rem] h-auto">
                   <img src={linkedIn} />
                 </a>
-                <a
-                  href="https://github.com/nadirras"
-                  target="_blank"
-                  className="card w-[7rem] h-auto"
-                >
+                <a href="https://github.com/nadirras" target="_blank" className="card w-[7rem] h-auto">
                   <img src={gitHub} />
                 </a>
               </div>
@@ -73,7 +60,6 @@ const Hero: React.FC = () => {
           </dialog>
         </div>
       </div>
-    
     </div>
   );
 };
